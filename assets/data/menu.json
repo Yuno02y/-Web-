@@ -1,0 +1,22 @@
+[
+  { "name": "ドンペリ二ヨン", "volume": "720ml", "price": "90,000円" },
+  { "name": "山崎", "volume": "720ml", "price": "35,000円" },
+  { "name": "響", "volume": "720ml", "price": "35,000円" },
+  { "name": "ヘネシーXO", "volume": "720ml", "price": "35,000円" },
+  { "name": "モエシャンパンピンク", "volume": "720ml", "price": "35,000円" },
+  { "name": "モエシャンパン", "volume": "720ml", "price": "30,000円" },
+  { "name": "ヘネシーハイネック", "volume": "720ml", "price": "25,000円" },
+  { "name": "シーバス", "volume": "720ml", "price": "15,000円" },
+  { "name": "オールドパー", "volume": "720ml", "price": "15,000円" },
+  { "name": "ダニエル", "volume": "-", "price": "15,000円" },
+  { "name": "ワイン", "volume": "-", "price": "15,000円" },
+  { "name": "スパークリングワイン", "volume": "-", "price": "15,000円" },
+  { "name": "ワイン果実", "volume": "720ml", "price": "10,000円" },
+  { "name": "吉兆者", "volume": "720ml", "price": "10,000円" },
+  { "name": "一刻者", "volume": "720ml", "price": "8,000円" },
+  { "name": "黒霧島", "volume": "720ml", "price": "8,000円" },
+  { "name": "眞露", "volume": "720ml", "price": "6,000円" },
+  { "name": "テキーラ（ショット）", "volume": "-", "price": "2,000円" },
+  { "name": "梅酒（グラス）", "volume": "-", "price": "1,000円" },
+  { "name": "ビール", "volume": "340ml", "price": "1,000円" }
+]

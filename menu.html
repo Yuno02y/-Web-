@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ボトルメニュー | クラブ馨</title>
+    <meta
+      name="description"
+      content="クラブ馨のボトルメニュー。ドリンクの容量・価格を分かりやすく掲載しています。"
+    />
+    <meta property="og:title" content="ボトルメニュー | クラブ馨" />
+    <meta
+      property="og:description"
+      content="厳選したボトルメニューをご用意しています。"
+    />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80"
+    />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container header-inner">
+        <div class="logo">馨 <span class="lang-sub">Club Xin (馨)</span></div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="guide.html">Guide</a></li>
+            <li><a href="access.html">Access</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <h1 class="section-title">ボトルメニュー</h1>
+          <p>厳選したボトルをご用意しています。詳細はスタッフにご相談ください。</p>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>銘柄</th>
+                <th>容量</th>
+                <th>価格</th>
+              </tr>
+            </thead>
+            <tbody id="menu-list"></tbody>
+          </table>
+          <p class="notice">※在庫状況によりご提供できない場合があります。</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="card-grid">
+            <div class="card">
+              <h3>落ち着いた雰囲気</h3>
+              <p>静かにお酒を楽しみたい方におすすめです。</p>
+            </div>
+            <div class="card">
+              <h3>中国語の会話</h3>
+              <p>简单的中文交流也可以。お気軽に話しかけてください。</p>
+            </div>
+            <div class="card">
+              <h3>平日予約</h3>
+              <p>平日はゆったりとした席をご用意できます。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>クラブ馨</h3>
+          <p>上品で落ち着いた時間をご提供します。</p>
+        </div>
+        <div>
+          <h4>店舗情報</h4>
+          <p>住所：<span data-contact="address"></span></p>
+          <p>営業時間：<span data-contact="hours"></span></p>
+        </div>
+        <div>
+          <h4>お問い合わせ</h4>
+          <p>電話：<a data-contact="phone" data-contact-display="true"></a></p>
+          <p>LINE：<a data-contact="lineUrl" data-contact-display="true"></a></p>
+        </div>
+        <div>
+          <small>※料金・サービス内容は変更となる場合があります。</small>
+          <br />
+          <small>© 2024 Club Xin - 馨</small>
+        </div>
+      </div>
+    </footer>
+
+    <div class="fixed-cta">
+      <a href="contact.html">予約・お問い合わせ</a>
+      <a data-contact="lineUrl">LINE相談</a>
+    </div>
+
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
