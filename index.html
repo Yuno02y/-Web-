@@ -3,151 +3,160 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>クラブ馨 | 仕事帰りに、落ち着いた一杯を。</title>
+    <title>クラブ「馨」｜平日、仕事帰りに一杯</title>
     <meta
       name="description"
-      content="クラブ馨は上品で落ち着いた雰囲気のクラブです。平日はゆったり会話を楽しめ、中国語の練習にもおすすめです。"
+      content="平日、仕事帰りに一杯。気軽に立ち寄れるクラブ「馨」。中国人スタッフ在籍で会話を楽しめる華やかな空間です。"
     />
-    <meta property="og:title" content="クラブ馨" />
-    <meta
-      property="og:description"
-      content="仕事帰りに、落ち着いた一杯を。中国語も会話も気軽に楽しめるクラブ。"
-    />
-    <meta
-      property="og:image"
-      content="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80"
-    />
-    <meta property="og:type" content="website" />
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="site-header">
       <div class="container header-inner">
-        <div class="logo">馨 <span class="lang-sub">Club Xin (馨)</span></div>
-        <nav>
+        <div class="logo">馨</div>
+        <nav class="site-nav" aria-label="主要メニュー">
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="pricing.html">Pricing</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="guide.html">Guide</a></li>
-            <li><a href="access.html">Access</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#pricing">料金</a></li>
+            <li><a href="#menu">メニュー</a></li>
+            <li><a href="#access">アクセス</a></li>
           </ul>
         </nav>
       </div>
     </header>
 
     <main>
-      <section class="hero container">
-        <div>
-          <span class="badge">上品・落ち着き・安心感</span>
-          <h1>仕事帰りに、落ち着いた一杯を。</h1>
-          <p>
-            中国語も、会話も。気軽に楽しめるクラブ「馨」。
-            <span class="lang-sub">中文：轻松练习中文，享受安静的夜晚。</span>
-          </p>
-          <div class="cta-group">
-            <a class="btn primary" href="contact.html">予約・お問い合わせ</a>
-            <a class="btn" data-contact="lineUrl">LINEで相談</a>
-            <a class="btn" data-contact="phone">電話で予約</a>
+      <section class="hero" id="top">
+        <div class="container hero-inner">
+          <div class="hero-content">
+            <p class="hero-lead">
+              「平日、仕事帰りに一杯。気軽に立ち寄れるクラブ『馨』」
+            </p>
+            <h1 class="hero-title">華やかで、入りやすい時間を。</h1>
+            <p class="hero-sub">
+              「中国人スタッフ在籍。会話を楽しめる、華やかな空間です。」
+            </p>
+            <div class="cta-group">
+              <a class="btn primary" href="tel:000-0000-0000">電話する</a>
+              <a class="btn line" href="https://line.me/ti/p/your-line-id" target="_blank" rel="noopener">LINEで問い合わせ</a>
+            </div>
+          </div>
+          <div class="hero-media">
+            <img src="/assets/img/hero.jpg" alt="クラブ馨の店内イメージ" />
           </div>
         </div>
-        <div class="hero-visual" aria-label="クラブ馨のイメージ"></div>
       </section>
 
-      <section class="section">
+      <section class="section" aria-labelledby="weekday-title">
         <div class="container">
-          <h2 class="section-title">平日おすすめ</h2>
+          <h2 id="weekday-title" class="section-title">平日ふらっと、気軽にどうぞ</h2>
+          <ul class="soft-points">
+            <li>仕事帰りに軽く一杯から</li>
+            <li>落ち着いて話せる時間も</li>
+            <li>初めての方も気軽に</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="points-title">
+        <div class="container">
+          <h2 id="points-title" class="section-title">押しポイント</h2>
           <div class="card-grid">
-            <div class="card">
-              <h3>ゆったり会話できる</h3>
-              <p>平日は落ち着いた雰囲気で、ゆっくりお話できます。</p>
-            </div>
-            <div class="card">
-              <h3>中国語の練習にも◎</h3>
-              <p>簡単な中国語の会話を交えながら、楽しく過ごせます。</p>
-            </div>
-            <div class="card">
-              <h3>安心の料金提示</h3>
-              <p>事前に料金システムを明確にご案内します。</p>
-            </div>
+            <div class="point-card">平日ふらっと歓迎</div>
+            <div class="point-card">にぎやかで話しやすい雰囲気</div>
+            <div class="point-card">中国語もちょっと学べます</div>
           </div>
         </div>
       </section>
 
-      <section class="section">
+      <section class="section" id="pricing" aria-labelledby="pricing-title">
         <div class="container">
-          <h2 class="section-title">料金システムの要点</h2>
-          <table class="table">
-            <thead>
-              <tr>
-                <th>内容</th>
-                <th>料金</th>
-              </tr>
-            </thead>
-            <tbody data-pricing></tbody>
-          </table>
-          <p class="notice">※税・サービス料の有無は店舗にてご案内します。</p>
+          <h2 id="pricing-title" class="section-title">料金システム</h2>
+          <div class="table-wrap">
+            <table class="price-table">
+              <tbody>
+                <tr>
+                  <th>セット料金</th>
+                  <td>1時間 4,000円</td>
+                </tr>
+                <tr>
+                  <th>指名料</th>
+                  <td>1名につき 2,000円</td>
+                </tr>
+                <tr>
+                  <th>同伴料</th>
+                  <td>1回 4,000円</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="note">※詳細は来店時にご確認ください。</p>
         </div>
       </section>
 
-      <section class="section">
+      <section class="section" id="menu" aria-labelledby="menu-title">
         <div class="container">
-          <h2 class="section-title">はじめての方へ</h2>
-          <div class="card-grid">
-            <div class="card">
-              <h3>落ち着いた空間</h3>
-              <p>ギラギラしない上品な空間で、安心して過ごせます。</p>
-            </div>
-            <div class="card">
-              <h3>ご予約優先</h3>
-              <p>平日はスムーズにご案内可能。事前予約がおすすめです。</p>
-            </div>
-            <div class="card">
-              <h3>仕事帰りに一杯</h3>
-              <p>軽く一杯飲みたい方にも、ほどよい距離感でお迎えします。</p>
-            </div>
+          <h2 id="menu-title" class="section-title">メニュー</h2>
+          <div id="menu-list" class="menu-grid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="section" aria-label="写真ギャラリー">
+        <div class="container">
+          <div class="gallery">
+            <img src="/assets/img/gallery-1.jpg" alt="店内写真1" />
+            <img src="/assets/img/gallery-2.jpg" alt="店内写真2" />
+            <img src="/assets/img/gallery-3.jpg" alt="店内写真3" />
           </div>
         </div>
       </section>
 
-      <section class="section">
-        <div class="container">
-          <h2 class="section-title">よくある質問</h2>
-          <div id="faq-list"></div>
+      <section class="section" id="access" aria-labelledby="access-title">
+        <div class="container access">
+          <div>
+            <h2 id="access-title" class="section-title">アクセス / 店舗情報</h2>
+            <dl class="info-list">
+              <div>
+                <dt>住所</dt>
+                <dd>〒000-0000 東京都〇〇区〇〇（仮）</dd>
+              </div>
+              <div>
+                <dt>最寄駅</dt>
+                <dd>〇〇駅 徒歩〇分（仮）</dd>
+              </div>
+              <div>
+                <dt>営業時間</dt>
+                <dd>19:00-24:00（仮）</dd>
+              </div>
+              <div>
+                <dt>定休日</dt>
+                <dd>日曜（仮）</dd>
+              </div>
+              <div>
+                <dt>支払い方法</dt>
+                <dd>現金/カード（仮）</dd>
+              </div>
+            </dl>
+          </div>
+          <div class="access-cta">
+            <p class="access-lead">平日のご来店、お気軽にご相談ください。</p>
+            <div class="cta-group">
+              <a class="btn primary" href="tel:000-0000-0000">電話する</a>
+              <a class="btn line" href="https://line.me/ti/p/your-line-id" target="_blank" rel="noopener">LINEで問い合わせ</a>
+            </div>
+          </div>
         </div>
       </section>
     </main>
 
     <footer class="footer">
-      <div class="container footer-grid">
-        <div>
-          <h3>クラブ馨</h3>
-          <p>上品で落ち着いた時間をご提供します。</p>
-        </div>
-        <div>
-          <h4>店舗情報</h4>
-          <p>住所：<span data-contact="address"></span></p>
-          <p>営業時間：<span data-contact="hours"></span></p>
-        </div>
-        <div>
-          <h4>お問い合わせ</h4>
-          <p>電話：<a data-contact="phone" data-contact-display="true"></a></p>
-          <p>LINE：<a data-contact="lineUrl" data-contact-display="true"></a></p>
-        </div>
-        <div>
-          <small>※料金・サービス内容は変更となる場合があります。</small>
-          <br />
-          <small>© 2024 Club Xin - 馨</small>
-        </div>
-      </div>
+      <p>20歳未満の飲酒は法律で禁止されています。</p>
     </footer>
 
-    <div class="fixed-cta">
-      <a href="contact.html">予約・お問い合わせ</a>
-      <a data-contact="lineUrl">LINE相談</a>
+    <div class="fixed-cta" aria-label="固定お問い合わせ">
+      <a class="fixed-btn" href="tel:000-0000-0000">電話</a>
+      <a class="fixed-btn line" href="https://line.me/ti/p/your-line-id" target="_blank" rel="noopener">LINE</a>
     </div>
 
-    <script src="assets/js/app.js"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
