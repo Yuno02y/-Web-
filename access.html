@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>アクセス | クラブ馨</title>
+    <meta
+      name="description"
+      content="クラブ馨のアクセス情報。営業時間や住所、地図をご確認ください。"
+    />
+    <meta property="og:title" content="アクセス | クラブ馨" />
+    <meta property="og:description" content="店舗情報とアクセス方法をご案内します。" />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80"
+    />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container header-inner">
+        <div class="logo">馨 <span class="lang-sub">Club Xin (馨)</span></div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="guide.html">Guide</a></li>
+            <li><a href="access.html">Access</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <h1 class="section-title">アクセス / 店舗情報</h1>
+          <div class="card-grid">
+            <div class="card">
+              <h3>所在地</h3>
+              <p><span data-contact="address"></span></p>
+              <p class="notice">※住所確定後に差し替え予定</p>
+            </div>
+            <div class="card">
+              <h3>営業時間</h3>
+              <p><span data-contact="hours"></span></p>
+              <p class="notice">※詳細はお問い合わせください</p>
+            </div>
+            <div class="card">
+              <h3>お問い合わせ</h3>
+              <p>電話：<a data-contact="phone" data-contact-display="true"></a></p>
+              <p>LINE：<a data-contact="lineUrl" data-contact-display="true"></a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">地図</h2>
+          <div class="card">
+            <p>Google Mapは住所確定後に埋め込み予定です。</p>
+            <div
+              style="
+                margin-top: 16px;
+                width: 100%;
+                height: 320px;
+                background: #e7e1da;
+                border-radius: 12px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #6e6a64;
+              "
+            >
+              MAP PLACEHOLDER
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>クラブ馨</h3>
+          <p>上品で落ち着いた時間をご提供します。</p>
+        </div>
+        <div>
+          <h4>店舗情報</h4>
+          <p>住所：<span data-contact="address"></span></p>
+          <p>営業時間：<span data-contact="hours"></span></p>
+        </div>
+        <div>
+          <h4>お問い合わせ</h4>
+          <p>電話：<a data-contact="phone" data-contact-display="true"></a></p>
+          <p>LINE：<a data-contact="lineUrl" data-contact-display="true"></a></p>
+        </div>
+        <div>
+          <small>※料金・サービス内容は変更となる場合があります。</small>
+          <br />
+          <small>© 2024 Club Xin - 馨</small>
+        </div>
+      </div>
+    </footer>
+
+    <div class="fixed-cta">
+      <a href="contact.html">予約・お問い合わせ</a>
+      <a data-contact="lineUrl">LINE相談</a>
+    </div>
+
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
